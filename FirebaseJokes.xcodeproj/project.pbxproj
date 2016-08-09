@@ -21,6 +21,9 @@
 		2C724D901C53E93B00A53EAF /* JokesFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724D8F1C53E93B00A53EAF /* JokesFeedTableViewController.swift */; };
 		2C724D921C53E95600A53EAF /* AddJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724D911C53E95600A53EAF /* AddJokeViewController.swift */; };
 		2C724D941C53E97800A53EAF /* JokeCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C724D931C53E97800A53EAF /* JokeCellTableViewCell.swift */; };
+		4D7B9583A01AD01881800443 /* Pods_FirebaseJokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37BFF2C3354F2702C639581 /* Pods_FirebaseJokes.framework */; };
+		5AC9AAAE4C288E05B0F26F14 /* Pods_FirebaseJokesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DFC306CD95E7338A02A02B /* Pods_FirebaseJokesUITests.framework */; };
+		EDC0342DA350DB6FF1B61799 /* Pods_FirebaseJokesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322CB29430D3A10C173CCB50 /* Pods_FirebaseJokesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B39BE0FBBC4676DCF1360EF /* Pods-FirebaseJokesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseJokesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseJokesTests/Pods-FirebaseJokesTests.release.xcconfig"; sourceTree = "<group>"; };
+		0E4F4275C865BBCDB0DB4CDF /* Pods-FirebaseJokesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseJokesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseJokesUITests/Pods-FirebaseJokesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2C724D4F1C53E7EB00A53EAF /* FirebaseJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C724D521C53E7EB00A53EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C724D571C53E7EB00A53EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +66,13 @@
 		2C724D8F1C53E93B00A53EAF /* JokesFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokesFeedTableViewController.swift; sourceTree = "<group>"; };
 		2C724D911C53E95600A53EAF /* AddJokeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddJokeViewController.swift; sourceTree = "<group>"; };
 		2C724D931C53E97800A53EAF /* JokeCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JokeCellTableViewCell.swift; sourceTree = "<group>"; };
+		2F3D610DD9E73A3615729BE0 /* Pods-FirebaseJokesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseJokesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseJokesTests/Pods-FirebaseJokesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		322CB29430D3A10C173CCB50 /* Pods_FirebaseJokesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseJokesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DFC306CD95E7338A02A02B /* Pods_FirebaseJokesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseJokesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFDBDAC8631B1977DA1F914 /* Pods-FirebaseJokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseJokes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseJokes/Pods-FirebaseJokes.debug.xcconfig"; sourceTree = "<group>"; };
+		79D1E776716B517E57D98DF4 /* Pods-FirebaseJokesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseJokesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseJokesUITests/Pods-FirebaseJokesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BA3C93E370C7F7C335490A1 /* Pods-FirebaseJokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseJokes.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseJokes/Pods-FirebaseJokes.release.xcconfig"; sourceTree = "<group>"; };
+		A37BFF2C3354F2702C639581 /* Pods_FirebaseJokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseJokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7B9583A01AD01881800443 /* Pods_FirebaseJokes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC0342DA350DB6FF1B61799 /* Pods_FirebaseJokesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AC9AAAE4C288E05B0F26F14 /* Pods_FirebaseJokesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +110,8 @@
 				2C724D661C53E7EB00A53EAF /* FirebaseJokesTests */,
 				2C724D711C53E7EB00A53EAF /* FirebaseJokesUITests */,
 				2C724D501C53E7EB00A53EAF /* Products */,
+				80A8D8A3B77F6A77C62F9FB7 /* Pods */,
+				52E2D5C44CEA6AED904CF379 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,6 +203,29 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		52E2D5C44CEA6AED904CF379 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A37BFF2C3354F2702C639581 /* Pods_FirebaseJokes.framework */,
+				322CB29430D3A10C173CCB50 /* Pods_FirebaseJokesTests.framework */,
+				33DFC306CD95E7338A02A02B /* Pods_FirebaseJokesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80A8D8A3B77F6A77C62F9FB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CFDBDAC8631B1977DA1F914 /* Pods-FirebaseJokes.debug.xcconfig */,
+				8BA3C93E370C7F7C335490A1 /* Pods-FirebaseJokes.release.xcconfig */,
+				2F3D610DD9E73A3615729BE0 /* Pods-FirebaseJokesTests.debug.xcconfig */,
+				0B39BE0FBBC4676DCF1360EF /* Pods-FirebaseJokesTests.release.xcconfig */,
+				0E4F4275C865BBCDB0DB4CDF /* Pods-FirebaseJokesUITests.debug.xcconfig */,
+				79D1E776716B517E57D98DF4 /* Pods-FirebaseJokesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C724D771C53E7EB00A53EAF /* Build configuration list for PBXNativeTarget "FirebaseJokes" */;
 			buildPhases = (
+				229B0CF3610456984B507A40 /* [CP] Check Pods Manifest.lock */,
 				2C724D4B1C53E7EB00A53EAF /* Sources */,
 				2C724D4C1C53E7EB00A53EAF /* Frameworks */,
 				2C724D4D1C53E7EB00A53EAF /* Resources */,
+				FC203C7B8020A453EDCC7917 /* [CP] Embed Pods Frameworks */,
+				0BB8FE0551E7B03698CA6BE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C724D7A1C53E7EB00A53EAF /* Build configuration list for PBXNativeTarget "FirebaseJokesTests" */;
 			buildPhases = (
+				B9EB04F625F1CA39B1C173FE /* [CP] Check Pods Manifest.lock */,
 				2C724D5F1C53E7EB00A53EAF /* Sources */,
 				2C724D601C53E7EB00A53EAF /* Frameworks */,
 				2C724D611C53E7EB00A53EAF /* Resources */,
+				C8B9EB3D334A746D958DA499 /* [CP] Embed Pods Frameworks */,
+				E1EF885F23C725570000853F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C724D7D1C53E7EB00A53EAF /* Build configuration list for PBXNativeTarget "FirebaseJokesUITests" */;
 			buildPhases = (
+				4BC5091A91F0AD89D6688AF0 /* [CP] Check Pods Manifest.lock */,
 				2C724D6A1C53E7EB00A53EAF /* Sources */,
 				2C724D6B1C53E7EB00A53EAF /* Frameworks */,
 				2C724D6C1C53E7EB00A53EAF /* Resources */,
+				045F32CA07BAA555B46DCD5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +359,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		045F32CA07BAA555B46DCD5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseJokesUITests/Pods-FirebaseJokesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0BB8FE0551E7B03698CA6BE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseJokes/Pods-FirebaseJokes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		229B0CF3610456984B507A40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4BC5091A91F0AD89D6688AF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9EB04F625F1CA39B1C173FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B9EB3D334A746D958DA499 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseJokesTests/Pods-FirebaseJokesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1EF885F23C725570000853F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseJokesTests/Pods-FirebaseJokesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC203C7B8020A453EDCC7917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirebaseJokes/Pods-FirebaseJokes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C724D4B1C53E7EB00A53EAF /* Sources */ = {
@@ -463,6 +634,7 @@
 		};
 		2C724D781C53E7EB00A53EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFDBDAC8631B1977DA1F914 /* Pods-FirebaseJokes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseJokes/Info.plist;
@@ -474,6 +646,7 @@
 		};
 		2C724D791C53E7EB00A53EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA3C93E370C7F7C335490A1 /* Pods-FirebaseJokes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FirebaseJokes/Info.plist;
@@ -485,6 +658,7 @@
 		};
 		2C724D7B1C53E7EB00A53EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F3D610DD9E73A3615729BE0 /* Pods-FirebaseJokesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirebaseJokesTests/Info.plist;
@@ -497,6 +671,7 @@
 		};
 		2C724D7C1C53E7EB00A53EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B39BE0FBBC4676DCF1360EF /* Pods-FirebaseJokesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FirebaseJokesTests/Info.plist;
@@ -509,6 +684,7 @@
 		};
 		2C724D7E1C53E7EB00A53EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4F4275C865BBCDB0DB4CDF /* Pods-FirebaseJokesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FirebaseJokesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -521,6 +697,7 @@
 		};
 		2C724D7F1C53E7EB00A53EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D1E776716B517E57D98DF4 /* Pods-FirebaseJokesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FirebaseJokesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
